@@ -26,13 +26,17 @@
     
 }
 
+#image {
+    max-width: 100%;
+}
+
 #img-caption {
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
 #tribute-info{
-    width: 40%;
+    width: 50%;
 }
 
 #subtitle{
@@ -62,4 +66,11 @@ li{
     font-weight: bold;
     font-size: 18px;
     margin-top: 20px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    #tribute-info {
+        width: 90%;
+    }
 }
