@@ -26,6 +26,10 @@
     
 }
 
+#image {
+    max-width: 100%;
+}
+
 #img-caption {
     margin-top: 15px;
     margin-bottom: 15px;
